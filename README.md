@@ -23,7 +23,7 @@ no fim, a limpeza estava correta. Bateu: **43.362 linhas sujas → 42.099 limpas
 | Valores negativos | erro de sinal | `ABS()` |
 | Typo "Wellcome" | erro de digitação na campanha | `REPLACE()` |
 
-## Três coisas que aprendi
+## Aprendizado
 
 1. **A importação corrompe dados em silêncio.** O auto detect do BigQuery leu
    `account_number` como inteiro e cortou os zeros à esquerda. Nenhum erro, mas o
