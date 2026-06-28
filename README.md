@@ -1,12 +1,13 @@
-# Pipeline de dados de e-mail marketing: limpeza + análise de funil (SQL + BigQuery + Looker)
+<img width="518" height="239" alt="image" src="https://github.com/user-attachments/assets/c0127ae3-f2fd-4b9f-af6a-4ff9caad9eee" /># Pipeline de dados de e-mail marketing: limpeza + análise de funil (SQL + BigQuery + Looker)
 
 Projeto de prática de SQL com foco em **qualidade de dados** e **análise de negócio**. Em vez de analisar um dataset já limpo, eu peguei um dataset público, inseri problemas de propósito com Python, reconstruí a versão original usando apenas SQL no BigQuery e, sobre os dados limpos, fiz uma análise de funil de conversão.
 
 ## 📊 Dashboard (Looker Studio)
 
-🔗 **[Ver dashboard ao vivo](COLE_AQUI_O_LINK_PUBLICO)** — atualiza em tempo real a partir do BigQuery.
+🔗 **[Ver dashboard ao vivo](https://datastudio.google.com/reporting/6b77996f-91c8-440e-b2ef-52a5ffe3971d)** 
 
-![Dashboard do funil de campanhas](assets/dashboard.png)
+<img width="518" height="239" alt="image" src="https://github.com/user-attachments/assets/e32fb7e5-6788-4c58-846a-d5a390b99677" />
+
 
 O dashboard cobre quatro visões: funil geral (enviado → aberto → clicado → transação), conversão por campanha, receita por campanha e tempo médio até a abertura.
 
