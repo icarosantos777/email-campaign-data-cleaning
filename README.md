@@ -31,9 +31,9 @@ no fim, a limpeza estava correta. Bateu: **43.362 linhas sujas → 42.099 limpas
 2. **Validar suposição vale tanto quanto escrever a query.** Assumi que as datas
    eram `DD/MM/YYYY`; um "mês 23" impossível mostrou que o formato era americano
    (`M/D/YYYY`).
-3. **A ordem das operações importa.** Deduplicar antes de padronizar os textos
+3. **A ordem das operações importa.** Desduplicar antes de padronizar os textos
    deixava "Linda Howell" e "LINDA HOWELL" como pessoas diferentes. A correção foi
-   normalizar primeiro, deduplicar depois.
+   normalizar primeiro, desduplicar depois.
 
 ## Arquivo
 
