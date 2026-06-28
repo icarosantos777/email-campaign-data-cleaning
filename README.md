@@ -1,10 +1,10 @@
 # Limpeza de dados de campanha de e-mail marketing (SQL + BigQuery)
 
 Projeto de prática de SQL com foco em **qualidade de dados**. Em vez de analisar
-um dataset já limpo, peguei um dataset público (~42 mil registros), inseri
-problemas de propósito e tentei reconstruir a versão original usando **apenas SQL**.
+um dataset já limpo, peguei um dataset público (42 mil registros), inseri
+problemas de propósito e tentei reconstruir a versão original usando apenas SQL.
 
-> Importante: os problemas deste dataset foram inseridos por mim propositalmente, com um script Python, pra simular um cenário realista de dados sujos e praticar. Não é um dataset "selvagem" é um ambiente controlado de treino.
+**Os problemas deste dataset foram inseridos por mim propositalmente, com um script Python, pra simular um cenário realista de dados sujos e praticar. Não é um dataset "selvagem" é um ambiente controlado de treino.**
 
 ## O experimento
 
