@@ -28,7 +28,7 @@ GROUP BY email_name
 ORDER BY taxa_conversao_pct DESC;
 
 
--- ===== 3. RECEITA POR CAMPANHA =====
+-- RECEITA POR CAMPANHA
 -- nao basta converter: quanto cada campanha trouxe de fato?
 SELECT
   email_name,
@@ -41,7 +41,7 @@ GROUP BY email_name
 ORDER BY receita_total DESC;
 
 
--- ===== 4. TEMPO ATE ABRIR =====
+-- TEMPO ATE ABRIR
 -- quanto tempo a pessoa leva pra abrir depois do envio.
 -- ajuda a entender quando o e-mail "esfria".
 SELECT
