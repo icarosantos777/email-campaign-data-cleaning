@@ -60,15 +60,13 @@ Sobre a tabela limpa, analisei o funil de conversão da campanha (enviado → ab
 | Email 3 - Don't miss out (20% off) | 124 | R$ 123.289 | R$ 994 |
 | Email 4 - Thanks for choosing | 45 | R$ 45.676 | R$ 1.015 |
 
-**O principal achado:** a campanha de ofertas ("Email 2 - Offers tailored just for you") converteu bem mais que as outras — incluindo a de boas-vindas e a de desconto — tanto em número de transações quanto em receita. O ticket médio de todas é parecido (~R$ 1.000); o que coloca o Email 2 disparado em receita não é vender mais caro, é **converter muito mais gente**. Um caso de que o e-mail mais "vendedor" nem sempre é o que gera mais retorno; aqui foi o de oferta direcionada que puxou o resultado.
+**O principal achado:** a campanha de ofertas ("Email 2 - Offers tailored just for you") converteu bem mais que as outras, incluindo a de boas-vindas e a de desconto, tanto em número de transações quanto em receita. O ticket médio de todas é parecido (entre 1.000); o que coloca o Email 2 disparado em receita não é vender mais caro, é **converter muito mais gente**. Um caso de que o e-mail mais "vendedor" nem sempre é o que gera mais retorno; nesse caso foi o de oferta direcionada que puxou o resultado.
 
-Em média, o público abre o e-mail **~30 minutos** após o envio — um sinal de engajamento rápido, útil pra calibrar o timing de follow-ups.
-
----
+Em média, o público abre o e-mail **entre 30 minutos** após o envio, um sinal de engajamento rápido e útil pra calibrar o timing de follow-ups.
 
 ## Estrutura de dados
 
-O projeto separa o dado bruto do dado tratado, seguindo a lógica de camadas (**bronze → silver**): a tabela de origem é mantida intacta e a versão limpa é materializada numa tabela nova, o que preserva rastreabilidade e permite reprocessar a limpeza sem perder o original.
+O projeto separa o dado bruto do dado tratado: a tabela de origem é mantida intacta e a versão limpa é materializada numa tabela nova, o que preserva rastreabilidade e permite reprocessar a limpeza sem perder o original.
 
 ## Arquivos
 
