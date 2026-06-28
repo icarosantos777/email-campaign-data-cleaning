@@ -15,7 +15,7 @@ Projeto de prática de SQL com foco em **qualidade de dados** e **análise de ne
 
 O dashboard cobre quatro visões: funil geral (enviado → aberto → clicado → transação), conversão por campanha, receita por campanha e tempo médio até a abertura.
 
-## Parte 1 — Limpeza
+## Limpeza
 
 Parti de um dataset limpo (**42.099 linhas**), "baguncei" ele e tentei voltar ao número original só com um pipeline de limpeza. Se a contagem batesse no fim, a limpeza estava correta. Bateu: **43.362 linhas sujas → 42.099 limpas**.
 
@@ -38,7 +38,7 @@ Parti de um dataset limpo (**42.099 linhas**), "baguncei" ele e tentei voltar ao
 
 ---
 
-## Parte 2 — Análise de funil
+## Análise de funil
 
 Sobre a tabela limpa, analisei o funil de conversão da campanha (enviado → aberto → clicado → transação), no geral e por campanha.
 
