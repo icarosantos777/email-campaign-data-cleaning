@@ -4,7 +4,7 @@ Projeto de prática de SQL com foco em **qualidade de dados** e **análise de ne
 
 ## 📊 Dashboard (Looker Studio)
 
-🔗 **[Ver dashboard ao vivo](https://datastudio.google.com/reporting/6b77996f-91c8-440e-b2ef-52a5ffe3971d)** 
+🔗 **[dashboard](https://datastudio.google.com/reporting/6b77996f-91c8-440e-b2ef-52a5ffe3971d)** 
 
 <img width="500" height="239" alt="image" src="https://github.com/user-attachments/assets/e32fb7e5-6788-4c58-846a-d5a390b99677" />
 
