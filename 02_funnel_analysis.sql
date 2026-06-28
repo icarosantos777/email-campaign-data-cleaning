@@ -1,9 +1,4 @@
--- Analise de funil da campanha de e-mail (em cima da clean_data)
--- Funil: enviado -> aberto -> clicado -> transacao
--- Cada coluna de data marca ate onde a pessoa avancou; NULL = parou ali.
-
-
--- ===== 1. FUNIL GERAL =====
+-- FUNIL GERAL 
 -- quantos chegaram em cada etapa e a taxa de conversao entre elas
 SELECT
   COUNT(*) AS enviados,
@@ -18,7 +13,7 @@ SELECT
 FROM `portfolio-data-analyst-500002.email_campaigns.clean_data`;
 
 
--- ===== 2. FUNIL POR CAMPANHA =====
+-- FUNIL POR CAMPANHA
 -- compara a performance de cada e-mail. mostra qual converte melhor.
 SELECT
   email_name,
