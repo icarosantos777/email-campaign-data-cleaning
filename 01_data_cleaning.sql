@@ -4,7 +4,7 @@
 -- original (42099 linhas) usando so SQL.
 
 
--- ===== AUDITORIA: ver o tamanho do estrago antes de mexer =====
+-- AUDITORIA
 
 -- nulls e total de linhas
 -- (varios nulls aqui nao sao erro, sao funil: quem nao abriu nao tem open_date, etc)
@@ -32,7 +32,7 @@ FROM `portfolio-data-analyst-500002.email_campaigns.messy_email_campaigns`
 WHERE name != TRIM(name) OR name = UPPER(name) OR name = LOWER(name);
 
 
--- formato das datas em sent_date (tem ISO e tem americano misturado)
+-- formato das datas em sent_date 
 SELECT
   sent_date,
   CASE
@@ -50,9 +50,8 @@ WHERE table_name = 'messy_email_campaigns';
 
 
 
--- ===== LIMPEZA =====
--- importante: padronizar o nome ANTES de deduplicar, senao "Linda Howell" e
--- "LINDA HOWELL" passam como pessoas diferentes (foi o erro que me custou um tempo)
+-- LIMPEZA
+-- padronizar o nome antes de deduplicar, senao "Linda Howell" e "LINDA HOWELL" passam como pessoas diferentes (erro que me custou um tempo)
 CREATE OR REPLACE TABLE `portfolio-data-analyst-500002.email_campaigns.clean_data` AS
 
 WITH standardized AS (
@@ -88,10 +87,8 @@ SELECT
 FROM dedup
 WHERE rn = 1;
 
-
-
--- ===== VALIDACAO =====
--- esperado: 42099 linhas (igual ao original antes da bagunça), zero negativo, zero data nula
+-- VALIDAÇAO
+-- esperado: 42099 linhas (igual ao original), zero negativo, zero data nula
 SELECT
   COUNT(*) AS total_rows,
   COUNTIF(transaction_amount < 0) AS negativo,
