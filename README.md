@@ -2,10 +2,6 @@
 
 Projeto de prática de SQL com foco em **qualidade de dados** e **análise de negócio**. Em vez de analisar um dataset já limpo, peguei um dataset público, inseri problemas de propósito com Python, reconstruí a versão original usando apenas SQL no BigQuery e, sobre os dados limpos, fiz uma análise de funil de conversão.
 
-> Os problemas deste dataset foram inseridos por mim de propósito pra simular um cenário realista de dados sujos. É um ambiente controlado de treino — o script que faz a "bagunça" está no próprio repositório (`00_make_messy.py`), então dá pra ver exatamente o que foi alterado.
-
----
-
 ## 📊 Dashboard (Looker Studio)
 
 🔗 **[Ver dashboard ao vivo](COLE_AQUI_O_LINK_PUBLICO)** — atualiza em tempo real a partir do BigQuery.
@@ -13,8 +9,6 @@ Projeto de prática de SQL com foco em **qualidade de dados** e **análise de ne
 ![Dashboard do funil de campanhas](assets/dashboard.png)
 
 O dashboard cobre quatro visões: funil geral (enviado → aberto → clicado → transação), conversão por campanha, receita por campanha e tempo médio até a abertura.
-
----
 
 ## Parte 1 — Limpeza
 
