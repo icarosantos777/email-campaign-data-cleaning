@@ -6,11 +6,12 @@ Projeto de prática de SQL com foco em **qualidade de dados** e **análise de ne
 
 🔗 **[Ver dashboard ao vivo](https://datastudio.google.com/reporting/6b77996f-91c8-440e-b2ef-52a5ffe3971d)** 
 
-<img width="518" height="239" alt="image" src="https://github.com/user-attachments/assets/e32fb7e5-6788-4c58-846a-d5a390b99677" />
+<img width="400" height="239" alt="image" src="https://github.com/user-attachments/assets/e32fb7e5-6788-4c58-846a-d5a390b99677" />
 
-<img width="521" height="307" alt="image" src="https://github.com/user-attachments/assets/6de89ad8-2e25-4fb8-ba10-fa42b9746677" />
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/6de89ad8-2e25-4fb8-ba10-fa42b9746677" />
 
-<img width="539" height="175" alt="image" src="https://github.com/user-attachments/assets/9e5d3c1b-7d31-4701-a91a-bd3823e533a1" />
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/fa8b2d3a-53fb-4bb9-9742-7239da2cbfbb" />
+
 
 O dashboard cobre quatro visões: funil geral (enviado → aberto → clicado → transação), conversão por campanha, receita por campanha e tempo médio até a abertura.
 
