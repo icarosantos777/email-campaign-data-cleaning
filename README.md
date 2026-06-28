@@ -12,7 +12,7 @@ Parti de um dataset limpo (42.099 linhas), "baguncei" ele e tentei voltar ao
 número original só com um pipeline de limpeza no BigQuery. Se a contagem batesse
 no fim, a limpeza estava correta. Bateu: **43.362 linhas sujas → 42.099 limpas.**
 
-## Problemas inseridos (e como tratei)
+## Como tratei os problemas inseridos
 
 | Problema | Causa simulada | Solução em SQL |
 |---|---|---|
