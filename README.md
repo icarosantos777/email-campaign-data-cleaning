@@ -12,7 +12,6 @@ Projeto de prática de SQL com foco em **qualidade de dados** e **análise de ne
 
 <img width="539" height="175" alt="image" src="https://github.com/user-attachments/assets/9e5d3c1b-7d31-4701-a91a-bd3823e533a1" />
 
-
 O dashboard cobre quatro visões: funil geral (enviado → aberto → clicado → transação), conversão por campanha, receita por campanha e tempo médio até a abertura.
 
 ## Parte 1 — Limpeza
