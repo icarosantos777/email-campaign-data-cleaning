@@ -4,9 +4,7 @@ Projeto de prática de SQL com foco em **qualidade de dados**. Em vez de analisa
 um dataset já limpo, peguei um dataset público (~42 mil registros), inseri
 problemas de propósito e tentei reconstruir a versão original usando **apenas SQL**.
 
-> Importante: os problemas deste dataset foram **inseridos por mim de propósito**,
-> com um script Python, pra simular um cenário realista de dados sujos e praticar
-> tratamento. Não é um dataset "selvagem" — é um ambiente controlado de treino.
+> Importante: os problemas deste dataset foram inseridos por mim propositalmente, com um script Python, pra simular um cenário realista de dados sujos e praticar. Não é um dataset "selvagem" é um ambiente controlado de treino.
 
 ## O experimento
 
