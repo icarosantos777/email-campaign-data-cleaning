@@ -1,4 +1,4 @@
-## Pipeline de dados de e-mail marketing: limpeza + análise de funil (SQL + BigQuery + Looker)
+## Pipeline de dados de e-mail marketing: limpeza + análise de funil (BigQuery + Looker)
 
 Projeto de prática de SQL com foco em **qualidade de dados** e **análise de negócio**. Em vez de analisar um dataset já limpo, eu peguei um dataset público, inseri problemas de propósito com Python, reconstruí a versão original usando apenas SQL no BigQuery e, sobre os dados limpos, fiz uma análise de funil de conversão.
 
