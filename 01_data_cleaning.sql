@@ -1,11 +1,3 @@
--- Projeto: limpeza de dados de campanha de e-mail marketing (BigQuery)
--- Dataset publico do Kaggle (~42 mil linhas) com problemas inseridos de proposito
--- pra simular um cenario real de dados sujos. A meta era reconstruir a versao
--- original (42099 linhas) usando so SQL.
-
-
--- AUDITORIA
-
 -- nulls e total de linhas
 -- (varios nulls aqui nao sao erro, sao funil: quem nao abriu nao tem open_date, etc)
 SELECT
